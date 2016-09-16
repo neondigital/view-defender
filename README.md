@@ -37,4 +37,4 @@ php artisan vendor:publish --tag="config"
 
 ## License
 
-This package is licensed under the [MIT license](https://github.com/neondigita/view-defender/blob/master/LICENSE).
+This package is licensed under the [MIT license](https://github.com/neondigital/view-defender/blob/master/LICENSE).
