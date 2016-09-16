@@ -1,0 +1,12 @@
+{
+    "name": "neondigital/laravel-view-defender",
+    "description": "Protect your Laravel Views from the dark side!",
+    "authors": [
+        {
+            "name": "Glenn",
+            "email": "glenn@neondigital.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
