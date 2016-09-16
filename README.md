@@ -1,3 +1,5 @@
+** In Development **
+
 # Laravel View Defender
 
 <img src="https://cloud.githubusercontent.com/assets/647407/18585846/4e74f0a4-7c11-11e6-88fc-a5989e0f740b.jpg"/>
@@ -18,7 +20,7 @@ NEON brings you **View Defender** to the rescue. Simply adding the package to yo
 Require this package
 
 ```php
-composer require "neondigita/view-defender:1.*"
+composer require neondigital/laravel-view-defender
 ```
 
 After adding the package, add the ServiceProvider (Force) to the providers array in `config/app.php`
