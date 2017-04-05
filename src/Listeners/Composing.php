@@ -25,11 +25,13 @@ class Composing
      * @param  $event
      * @return void
      */
-    public function handle($view)
+    public function handle($eventName, $data)
     {
         if (!$this->config->get('app.debug')) {
             return;
         }
+
+        $view = $data[0];
 
         $this->checkData($view->getData());
     }
