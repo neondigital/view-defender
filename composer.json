@@ -7,6 +7,11 @@
             "email": "glenn@neondigital.co.uk"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Neondigital\\LaravelViewDefender\\": "src/"
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
