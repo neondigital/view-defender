@@ -20,14 +20,13 @@ class ViewDefenderServiceProvider extends ServiceProvider
     ];
 
     /**
-     * Register any other events for your application.
+     * Register the application's event listeners.
      *
-     * @param  \Illuminate\Contracts\Events\Dispatcher  $events
      * @return void
      */
-    public function boot(DispatcherContract $events)
+    public function boot()
     {
-        parent::boot($events);
+        parent::boot();
 
         if (!$this->isLumen()) {
             $this->publishes([
@@ -52,7 +51,8 @@ class ViewDefenderServiceProvider extends ServiceProvider
     protected function mergeConfig()
     {
         $this->mergeConfigFrom(
-            $this->getConfigPath(), 'viewdefender'
+            $this->getConfigPath(),
+            'viewdefender'
         );
     }
 
